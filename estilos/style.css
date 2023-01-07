@@ -30,5 +30,23 @@ section#telefone {
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat center center fixed;
     background-size: cover;
-    
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+
+    width: 267px;
+    height: 472px;
+}
+
+section#redes-sociais {
+    position: relative;
+    top: 10%;
+    left: 90%;
+
+    height: 400px;
+    width: 50px;
+    background-color: blue;
 }
