@@ -10,10 +10,9 @@ html, body {
     height: 100vh;
     width: 100vw;
     background-color: black;
-}
 
-bady {
-    background: url('../imagens/fundo-madeira.jpg');
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center fixed;
+    background-size: cover;
 }
 
 main {
@@ -29,7 +28,7 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
-
+    background: url('../imagens/frame-iphone.png') no-repeat center center fixed;
+    background-size: cover;
     
 }
